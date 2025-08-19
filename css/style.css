@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.left-container {
+  width: 30vw;
+  margin: 5px;
+  /* height: 100vh; */
+  border-radius: 8px;
+  background-color: #1b1a1a;
+}
+.right-container {
+  width: 70vw;
+  /* height: 100vh; */
+  margin: 5px;
+  border-radius: 8px;
+  background-color: #1b1a1a;
+}
+.library.left.border {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+.library {
+  font-size: 19px;
+  justify-content: flex-end;
+}
+.create {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  gap: 6px;
+  font-size: 1rem;
+  font-weight: bold;
+  padding: 8px 15px;
+  border-radius: 25px;
+  background-color: #3e3e3e;
+  color: white;
+}
+.artist{
+  margin:5px 0px 5px 5px;
+  border-radius: 50%;
+  height:50px;
+  width:50px;
+}
+.create:hover {
+  background-color: #4f4e4e;
+}
+
+.left {
+  margin: 5px;
+  height: 6vh;
+}
+.nav.left {
+  display: flex;
+  flex-wrap: wrap;
+}
+.nav.left p {
+  background-color: #3e3e3e;
+  padding: 8px 10px;
+  margin: 5px;
+  border-radius: 25px;
+  font-size: 1rem;
+}
+
+.nav.left p:hover {
+  background-color: #4f4e4e;
+}
+
+.expand {
+  padding: 8px;
+}
+.search {
+  padding: 2px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.search div {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.your-library {
+  font-weight: bold;
+}
+
+.playlist ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.liked {
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  border-radius: 5px;
+  float: left;
+}
+
+.playlist {
+  margin: 10px;
+}
+
+.playlist ul li {
+  margin: 10px;
+  width: 425px;
+  border-radius: 5px;
+}
+
+.playlist ul li:hover {
+  background-color: #3e3e3e;
+}
+
+.playlist ul li {
+  margin: 10px 0px;
+  display: flex;
+}
+
+.playlist ul li p {
+  margin: 5px;
+  flex: 1;
+}
+
+ul li div {
+  margin: 5px 0px 0px 0px;
+  height: 60px;
+  padding: 0px 10px;
+}
+
+.title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.sub {
+  font-size: 13px;
+  color: #8e8d8d;
+}
+
+.right-nav {
+  margin: 10px 10px 10px 40px;
+  display: flex;
+}
+
+.right-nav p {
+  background-color: #3e3e3e;
+  padding: 7px 12px;
+  font-size: 0.9rem;
+  margin: 6px;
+  border-radius: 50px;
+}
+
+.heading1 {
+  margin: 10px 10px 10px 50px;
+}
+
+.heading1 img {
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;
+  float: left;
+}
+
+div .small-text {
+  font-size: 0.7rem;
+  color: #8e8d8d;
+}
+
+div .big-text {
+  font-size: 1.7rem;
+  font-weight: 700;
+}
+
+div .big-text:hover {
+  text-decoration: underline;
+}
+
+.heading1 div {
+  margin: 10px 10px 10px 60px;
+}
+
+.cards {
+  overflow: hidden;
+  margin: 10px 10px 10px 35px;
+}
+
+.cards .card {
+  position:relative;
+  height: 250px;
+  width: 185px;
+  margin: 5px;
+  border-radius: 5px;
+}
+
+.cards .card:hover {
+  background-color: #4f4e4e;
+}
+
+.cards .card img{
+  margin:10px;
+  height:164;
+  width:89%;
+  border-radius: 5px;
+}
+
+.card-text{
+  margin:0px 10px 0px 10px ;
+}
+
+.card-text1{
+  font-size: 0.95rem;
+}
+
+.card-text2{
+  padding:5px 0px 0px 0px;
+  font-size: 0.85rem;
+  color:#8e8d8d;
+}
+
+.card-text1:hover{
+  text-decoration: underline;
+}
+
+.heading2{
+  margin-left: 50px;
+}
+
+h2:hover{
+  text-decoration: underline;
+}
+
+.play-button {
+  position: absolute;
+  bottom: 70px;
+  right: 20px;
+  opacity: 0;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition: all 0.3s ease;
+  
+}
+
+.play-button svg{
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+}
+
+.card:hover .play-button {
+  bottom: 80px;
+  opacity: 1;
+}
+
+.search-wrapper {
+  position: relative;
+  width: 100%;
+  max-width: 400px;
+}
+
+.search-wrapper input {
+  width: 100%;
+  padding: 10px 10px 10px 40px; /* left padding for the icon */
+  border-radius: 50px;
+  border: none;
+  background-color: #2a2a2a;
+  color: white;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-wrapper .search-icon {
+  position: absolute;
+  top: 50%;
+  left: 12px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: 20px;
+  pointer-events: none;
+}
+
+.navbar{
+  justify-content: space-between;
+}

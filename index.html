@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify Clone</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/utility.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <nav class="navbar flex">
+      <img src="./images/logo.svg" />
+      <div class="search-wrapper">
+        <svg
+          class="search-icon"
+          xmlns="http://www.w3.org/2000/svg"
+          viewBox="0 0 24 24"
+        >
+          <path
+            fill="white"
+            d="M15.5 14h-.79l-.28-.27a6.471 6.471 0 001.48-5.34C15.16 5.6 12.57 3 9.5 3S3.84 5.6 3.84 8.39c0 2.79 2.59 5.39 5.66 5.39a6.5 6.5 0 005.34-1.48l.27.28v.79l5 4.99L20.49 19l-4.99-5zM9.5 13C7.01 13 5 10.99 5 8.5S7.01 4 9.5 4s4.5 2.01 4.5 4.5S11.99 13 9.5 13z"
+          />
+        </svg>
+        <input type="text" placeholder="What do you want to listen to?" />
+      </div>
+
+      <p>Explore Preminum</p>
+      <div></div>
+    </nav>
+
+    <div class="container flex">
+      <div class="left-container border">
+        <div class="library left border flex align-items">
+          <p class="your-library">Your Library</p>
+          <p class="create">
+            <img src="./images/create.svg" height="16px" width="16px" /><span
+              >Create</span
+            >
+          </p>
+          <img class="expand" src="./images/expand.svg" />
+        </div>
+        <div class="nav left border">
+          <p>Playlist</p>
+          <p>Artists</p>
+          <p>Albums</p>
+          <p>Podcasts & Shows</p>
+        </div>
+        <div class="search left border flex align-items">
+          <img src="./images/search.svg" height="16px" width="16px" />
+          <div>
+            <p class="in-line">Recents</p>
+            <img class="in-line" src="./images/hamburger.svg" />
+          </div>
+        </div>
+        <div class="playlist flex align-items">
+          <ul>
+            <li>
+              <img src="./images/liked.jpg" alt="" class="liked" />
+              <div>
+                <p class="title">Liked Songs</p>
+                <p class="sub">Playlist.290 songs</p>
+              </div>
+            </li>
+            <li>
+              <img src="./images/liked.jpg" alt="" class="liked" />
+              <div>
+                <p class="title">Liked Songs</p>
+                <p class="sub">Playlist.290 songs</p>
+              </div>
+            </li>
+            <li>
+              <img src="./images/liked.jpg" alt="" class="liked" />
+
+              <div>
+                <p class="title">Liked Songs</p>
+                <p class="sub">Playlist.290 songs</p>
+              </div>
+            </li>
+            <li>
+              <img src="./images/liked.jpg" alt="" class="liked" />
+              <div>
+                <p class="title">Liked Songs</p>
+                <p class="sub">Playlist.290 songs</p>
+              </div>
+            </li>
+            <li>
+              <img src="./images/liked.jpg" alt="" class="liked" />
+              <div>
+                <p class="title">Liked Songs</p>
+                <p class="sub">Playlist.290 songs</p>
+              </div>
+            </li>
+            <li>
+              <img src="./images/liked.jpg" alt="" class="artist" />
+              <div>
+                <p class="title">Artist</p>
+                <p class="sub">Artist</p>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="right-container border">
+        <div class="right-nav">
+          <p>All</p>
+          <p>Music</p>
+          <p>Podcasts</p>
+        </div>
+
+        <div class="heading1">
+          <img src="./images/liked.jpg" alt="" />
+          <div>
+            <p class="small-text">Popular with listeners of</p>
+            <p class="big-text">Pretkotha (Bengali Horror Podcast)</p>
+          </div>
+        </div>
+
+        <div class="cards flex">
+          <div class="card">
+            <img src="./images/liked.jpg" />
+            <button class="play-button">
+              <svg width="50" height="50" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="12" fill="#1fdf64" />
+                <polygon points="10,8 16,12 10,16" fill="black" />
+              </svg>
+            </button>
+            <div class="card-text">
+              <p class="card-text1">Mirchi Bangla Special</p>
+              <p class="card-text2">Saggy</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/liked.jpg" />
+            <button class="play-button">
+              <svg width="50" height="50" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="12" fill="#1fdf64" />
+                <polygon points="10,8 16,12 10,16" fill="black" />
+              </svg>
+            </button>
+            <div class="card-text">
+              <p class="card-text1">Mirchi Bangla Special</p>
+              <p class="card-text2">Saggy</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/liked.jpg" />
+            <button class="play-button">
+              <svg width="50" height="50" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="12" fill="#1fdf64" />
+                <polygon points="10,8 16,12 10,16" fill="black" />
+              </svg>
+            </button>
+            <div class="card-text">
+              <p class="card-text1">Mirchi Bangla Special</p>
+              <p class="card-text2">Saggy</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/liked.jpg" />
+            <button class="play-button">
+              <svg width="50" height="50" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="12" fill="#1fdf64" />
+                <polygon points="10,8 16,12 10,16" fill="black" />
+              </svg>
+            </button>
+            <div class="card-text">
+              <p class="card-text1">Mirchi Bangla Special</p>
+              <p class="card-text2">Saggy</p>
+            </div>
+          </div>
+          <div class="card">
+            <img src="./images/liked.jpg" />
+            <button class="play-button">
+              <svg width="50" height="50" viewBox="0 0 24 24">
+                <circle cx="12" cy="12" r="12" fill="#1fdf64" />
+                <polygon points="10,8 16,12 10,16" fill="black" />
+              </svg>
+            </button>
+            <div class="card-text">
+              <p class="card-text1">Mirchi Bangla Special</p>
+              <p class="card-text2">Saggy</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="recently">
+          <div class="heading2"><h2>Recently played</h2></div>
+          <div class="cards flex">
+            <div class="card">
+              <img src="./images/liked.jpg" />
+              <button class="play-button">
+                <svg width="50" height="50" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="12" fill="#1fdf64" />
+                  <polygon points="10,8 16,12 10,16" fill="black" />
+                </svg>
+              </button>
+              <div class="card-text">
+                <p class="card-text1">Mirchi Bangla Special</p>
+                <p class="card-text2">Saggy</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./images/liked.jpg" />
+              <button class="play-button">
+                <svg width="50" height="50" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="12" fill="#1fdf64" />
+                  <polygon points="10,8 16,12 10,16" fill="black" />
+                </svg>
+              </button>
+              <div class="card-text">
+                <p class="card-text1">Mirchi Bangla Special</p>
+                <p class="card-text2">Saggy</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./images/liked.jpg" />
+              <button class="play-button">
+                <svg width="50" height="50" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="12" fill="#1fdf64" />
+                  <polygon points="10,8 16,12 10,16" fill="black" />
+                </svg>
+              </button>
+              <div class="card-text">
+                <p class="card-text1">Mirchi Bangla Special</p>
+                <p class="card-text2">Saggy</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./images/liked.jpg" />
+              <button class="play-button">
+                <svg width="50" height="50" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="12" fill="#1fdf64" />
+                  <polygon points="10,8 16,12 10,16" fill="black" />
+                </svg>
+              </button>
+              <div class="card-text">
+                <p class="card-text1">Mirchi Bangla Special</p>
+                <p class="card-text2">Saggy</p>
+              </div>
+            </div>
+            <div class="card">
+              <img src="./images/liked.jpg" />
+              <button class="play-button">
+                <svg width="50" height="50" viewBox="0 0 24 24">
+                  <circle cx="12" cy="12" r="12" fill="#1fdf64" />
+                  <polygon points="10,8 16,12 10,16" fill="black" />
+                </svg>
+              </button>
+              <div class="card-text">
+                <p class="card-text1">Mirchi Bangla Special</p>
+                <p class="card-text2">Saggy</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
